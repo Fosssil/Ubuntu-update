@@ -21,7 +21,7 @@ sudo rm -rf /var/lib/dpkg/lock-frontend;
 sudo rm -rf /var/lib/dpkg/lock;
 sudo rm -rf /var/cache/apt/archives/lock;
 sudo rm -rf /var/cache/apt/archives/;
-sudo apt autoremove;
+sudo apt autoremove -y;
 sudo apt autoclean;
 sudo apt update;
 sudo apt full-upgrade;
